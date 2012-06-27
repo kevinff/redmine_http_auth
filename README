@@ -1,7 +1,8 @@
 # quick n dirty hack to work with redmine 2.0
+# You need to put the redmine_http_auth/lib/* and redmine_http_auth/app/helpers/* files into your redmine lib/ folder
 # please check the original author git https://github.com/AdamLantos/redmine_http_auth
 
-HTTP Authentication plugin for Redmine
+HTTP Authentication plugin for Redmine 2.0
 =======
 
 This plugin enables an optional HTTP authentication method in the Redmine
