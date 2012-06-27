@@ -8,7 +8,7 @@ Redmine::Plugin.register :redmine_http_auth do
   description 'A plugin for doing HTTP authentication'
   version '0.3.0-dev'
   menu :account_menu, :login_httpauth,
-    :before => :login, :caption => :login_httpauth_title,
+    :before => :login, :caption => :login_httpauth_title
   #  :if => Proc.new { User.current.anonymous? && Setting.plugin_redmine_http_auth['enable'] == 'true' }
 
   settings :partial => 'settings/redmine_http_auth_settings',
