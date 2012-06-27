@@ -1,3 +1,6 @@
+# quick n dirty hack to work with redmine 2.0
+# please check the original author git https://github.com/AdamLantos/redmine_http_auth
+
 HTTP Authentication plugin for Redmine
 =======
 
